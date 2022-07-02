@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid justify-container:center">
+      <a class="navbar-brand" href="#">GiphyApp</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a routerLink="/Searching" class="nav nav-link Search" href=""><button class="button  glow-on-hover" type="submit"><i class="fa fa-search"></i>Search</button></a>
+          <a routerLink="/Trending" class="nav nav-link Home" aria-current="page" href="#" ><button class="button  glow-on-hover"><i class="fa fa-line-chart"></i>Trending</button></a>
+          <a routerLink="/Reactions" class="nav nav-link Reactions" href="#"><button class=" button  glow-on-hover"><i class="fa fa-smile-o"></i>Reactions</button></a>
+          <a routerLink="/Entertainment" class="nav nav-link Entertainment" href="#" ><button class=" button  glow-on-hover"><i class="fa fa-star-half-o"></i>Entertainment</button></a>
+          <a routerLink="/Sports" class="nav nav-link Sports" href="#"><button class=" button  glow-on-hover"><i class="fa fa-bicycle"></i>Sports</button> </a>
+          <a routerLink="/Favorites" class="nav nav-link" href="#" ><button class=" button  glow-on-hover"><i class="fa fa-bookmark"></i>Favorites</button> </a>
+          <a class="nav nav-link"><button class="button  glow-on-hover " (click)="logout()"><i class="fa fa-user"></i> Logout</button></a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- (click)="search(gif.value)"  -->
+  <!-- (keyup.enter)="search(gif.value)" -->
+  <!-- <app-search-gif *ngIf="gigs.length>0"></app-search-gif> -->
